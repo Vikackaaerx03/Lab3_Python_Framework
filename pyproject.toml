@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-orders"
+version = "0.1.0"
+description = "Orders app"
+authors = [{name = "Victoria Roslav"}]
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "jinja2",
+    "python-multipart"
+]
